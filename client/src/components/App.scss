@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    padding: 10px;
+
+    .headline {
+        font-size: 35px;
+        color: black;
+        text-align: center;
+        padding: 50px 0 15px;
+    }
+
+    .columns {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+
+        .columnSmall {
+            width: calc((100% - (20px + 740px)));
+        }
+
+        .columnBig {
+            width: 740px;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+@import '../../../assets/globalStyles/variables';
+
+section.container {
+    padding: 10px;
+
+    div.header {
+        color: $white;
+        padding: 10px 20px;
+        text-transform: uppercase;
+
+        i {
+            float: right;
+        }
+    }
+
+    div.content {
+        background-color: $white;
+        min-height: 200px;
+        overflow: hidden;
+        padding: 20px;
+        
+        hr {
+            border: none;
+            border-top: solid 1px;
+        }
+    }
+
+    &:nth-of-type(1) {
+        background-color: $color1;
+
+        hr {
+            border-color: $color1;
+        }
+    }
+    
+    &:nth-of-type(2) {
+        background-color: $color2;
+
+        hr {
+            border-color: $color2;
+        }
+    }
+    
+    &:nth-of-type(3) {
+        background-color: $color3;
+
+        hr {
+            border-color: $color3;
+        }
+    }
+    
+    &:nth-of-type(4) {
+        background-color: $color4;
+
+        hr {
+            border-color: $color4;
+        }
+    }
+    
+    &:nth-of-type(5) {
+        background-color: $color5;
+
+        hr {
+            border-color: $color5;
+        }
+    }
+}

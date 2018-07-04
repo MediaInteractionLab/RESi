@@ -1,0 +1,22 @@
+.button {
+    padding: 10px 20px;
+    border: solid black 2px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none !important;
+    background-color: white;
+    color: black;
+    position: relative;
+    
+    &:hover {
+        background-color: black;
+        color: white;
+    } 
+
+    i {
+        position: relative;
+        top: 7px;
+        margin-top: -10px;
+    }
+}

@@ -1,0 +1,49 @@
+@import '../../../../../assets/globalStyles/variables';
+
+.container {
+    position: relative;
+    display: flex;
+
+    & > div {
+        width: 50%;
+
+        h1 {
+            top: calc(50% - 18px);
+            text-align: center;
+            font-size: 36px;
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+        }
+        
+        &:first-of-type {
+            position: relative;
+            border-right: 1px solid $color3;
+            padding-right: 20px;
+            
+            & > div {
+                position: relative;
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: $gray;
+            }
+        }
+        
+        &:last-of-type {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+        }
+    }
+
+    h2 {
+        font-size: 12px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        color: black;
+    }
+}

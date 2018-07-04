@@ -1,0 +1,23 @@
+@import '../../../assets/globalStyles/variables';
+
+.container {
+    display: flex;
+
+    & > div {
+        width: 50%;
+
+        &:first-of-type {
+            border-right: 1px solid $color3;
+        }
+        
+        &:last-of-type {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            & > div:first-of-type {
+                flex-grow: 1;
+            }
+        }
+    }
+}

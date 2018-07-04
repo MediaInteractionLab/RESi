@@ -1,0 +1,60 @@
+@import '../../../assets/globalStyles/variables';
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    position: relative;
+    background-color: white;
+
+    h2 {
+        font-size: 12px;
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        color: black;
+    }
+    
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        &:not(:first-child) {
+            margin-top: 10px;
+        }
+    
+        button {
+            margin-right: 20px;
+        }
+    
+        & > div {
+            float: left;
+            height: 100%;
+            padding: 5px 0;
+            padding-right: 20px; 
+            position: relative;
+    
+            label {
+                margin-right: 10px;
+            }
+        }
+    }
+    
+    input {
+        height: 30px;
+        border: solid black 1px;
+        background-color: $white;
+        border-radius: 0;
+        width: 150px;
+        font-weight: bold;
+        padding: 0 30px;
+        text-align: center;
+
+        &[type=number] {
+            margin: 20px 10px 0;
+        }
+    }
+}

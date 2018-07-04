@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    padding-bottom: 50px;
+
+    .parameter {
+        height: 35px;
+        position: relative;
+        padding-bottom: 5px;
+
+        .keyInput {
+            width: 125px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        i {
+            position: absolute;
+            top: 0;
+            right: -35px;
+        }
+
+        & > .button {
+            position: absolute;
+            padding: 5px;
+            top: 0;
+            right: -50px;
+            left: auto;
+            bottom: auto;
+        }
+    }
+
+    & > .button {
+        position: relative;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,80 @@
+@import '../../../../../assets/globalStyles/variables';
+
+.container {
+    position: relative;
+    background-color: white;
+    padding-left: 20px;
+
+    h2 {
+        font-size: 12px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        color: black;
+    }
+
+    button {
+        margin-top: 10px;
+        display: block;
+        clear: left;
+
+        i {
+            margin-right: 5px;
+        }
+        
+        &.loading {
+            padding-left: 49px;
+            padding-top: 11px;
+            height: 41px;
+
+            img {
+                width: 22px;
+                position: absolute;
+                top: 8px;
+                left: 22px;
+            }
+
+            &:hover {
+                background-color: white;
+                color: black;
+                cursor: not-allowed;
+            }
+        }
+    }
+
+    form {
+
+        & > div {
+            float: left;
+            height: 39px;
+            padding: 5px 0;
+            padding-right: 20px; 
+            padding-bottom: 50px; 
+            position: relative;
+
+            label {
+                margin-right: 10px;
+                margin-bottom: 20px;
+            }
+    
+            select {
+                height: 30px;
+                border: solid black 1px;
+                background-color: $white;
+                border-radius: 0;
+                width: 150px;
+                -webkit-appearance: none;
+                appearance: none;
+                font-weight: bold;
+                padding-left: 10px;
+            }
+
+            .icon {
+                position: absolute;
+                right: 20px;
+                top: 8px;
+                pointer-events: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@import '../../../../../assets/globalStyles/variables';
+
+.container {
+    position: relative;
+    height: 520px;
+    background-color: white;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+    & > div {
+        position: relative;
+        justify-content: space-between;
+
+        &:first-child {
+            flex-grow: 1;
+            
+            button {
+                left: 0;
+            }
+        }
+
+        &:not(:first-child) {
+            button {
+                position: relative;
+            }
+        }
+
+        h2 {
+            font-size: 12px;
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+            color: black;
+        }
+    
+        p {
+            position: relative;
+            overflow: hidden;
+            padding: 10px 0;
+            
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                box-shadow: inset -20px 0px 21px 4px white;
+            }
+        }
+    
+        .data {
+            display: block;
+            padding-left: 20px;
+            position: relative;
+
+            i {
+                position: absolute;
+                top: -2px;
+            }
+        }
+    
+        button {
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+        }
+    }
+}
