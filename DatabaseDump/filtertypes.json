@@ -1,0 +1,10 @@
+{"_id":{"$oid":"5aa424a73bd113ac08786a69"},"name":"Band-Pass Filter","type":"band-pass filter","options":[{"type":"number","name":"min","label":"from"},{"type":"number","name":"max","label":"to"}]}
+{"_id":{"$oid":"5aa425eb3bd113ac08786a6a"},"name":"Clamping Filter","type":"clamping filter","options":[{"type":"number","name":"min","label":"from"},{"type":"number","name":"max","label":"to"}]}
+{"_id":{"$oid":"5aa426503bd113ac08786a6b"},"name":"Individual Offset Filter","type":"individual offset filter","options":[{"type":"number","name":"initializationSteps","label":"Initialization Steps"}]}
+{"_id":{"$oid":"5aa426e23bd113ac08786a6c"},"name":"Rotation Filter","type":"rotation filter","options":[]}
+{"_id":{"$oid":"5aa427153bd113ac08786a6d"},"name":"Scale Filter","type":"scale filter","options":[{"type":"number","name":"scale","label":"Scale Factor"}]}
+{"_id":{"$oid":"5ab8a8bf237b96431c7d2c7d"},"name":"Adaptive Offset Filter","type":"adaptive offset filter","options":[{"type":"number","name":"initializationSteps","label":"Initialization Steps"}]}
+{"_id":{"$oid":"5aba00c75e2bb94870e27634"},"name":"Sliding Window Filter","type":"sliding window filter","options":[{"type":"number","name":"frames","label":"Frames"}]}
+{"_id":{"$oid":"5ab3ce406acccf37e45d8932"},"name":"Highest Peak Filter","type":"highest peak filter","options":[]}
+{"_id":{"$oid":"5ab3c1ea6acccf37e45d8930"},"name":"Delta Filter","type":"delta filter","options":[]}
+{"_id":{"$oid":"5ab3c21a6acccf37e45d8931"},"name":"Remap Filter","type":"remap filter","options":[{"type":"number","name":"origMin","label":"orig min"},{"type":"number","name":"origMax","label":"orig max"},{"type":"number","name":"filteredMin","label":"filtered min"},{"type":"number","name":"filteredMax","label":"filtered max"}]}
